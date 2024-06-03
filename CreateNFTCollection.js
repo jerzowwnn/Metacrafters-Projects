@@ -32,7 +32,7 @@ function mintNFT (_charName, _sex, _type, _path, _affiliation) {
 function listNFTs () {
     for(let index = 0; index < allNFT.length; index++)
         {
-            console.log("Metadata of NFT " + index + ": " +allNFT[index]);
+            console.log(allNFT[index]);
         }
 }
 
@@ -50,4 +50,3 @@ mintNFT("Sparkle", "Female", "Quantum", "Harmony", "Masked Fools");
 
 listNFTs();
 getTotalSupply();
-
